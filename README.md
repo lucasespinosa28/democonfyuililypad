@@ -7,7 +7,7 @@ docker build . -f Dockerfile -t espinosa1991/demolegolilypadsd15:0.0. --target r
 ```
 ## To run
 ```bash
-docker run -it --gpus all -v $PWD/outputs:/outputs -e PROMPT='a lilypad in space' -e STEPS=30 espinosa1991/demolegolilypadsd15:0.0.
+docker run -it --gpus all -v $PWD/outputs:/outputs -e PROMPT='RAW photo, <lora:lego_v2.0.768-000035:0.8> LEGO BrickHeadz, a dragon in a cave, (high detailed skin:1.2), 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3' -e STEPS=30 espinosa1991/demolegolilypadsd15:0.0.
 ```
 ## To publish
 ```bash
